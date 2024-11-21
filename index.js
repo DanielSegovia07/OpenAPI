@@ -4,7 +4,7 @@ const path = require('path');
 const swaggerUI = require('swagger-ui-express');
 const swaggerJsDoc = require('swagger-jsdoc');
 
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3000;
 const app = express();
 
 // Ruta principal
